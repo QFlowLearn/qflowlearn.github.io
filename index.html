@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QFlowLearn projects · Author, Deliver, and QTI</title>
+  <meta name="description" content="Explore QFlow Author, QFlow Deliver, and the reusable QTI 3 library. Our plans for open-source assessment authoring and portable content.">
+  <link rel="canonical" href="https://qflowlearn.github.io/">
+  <meta property="og:title" content="QFlowLearn projects">
+  <meta property="og:description" content="Assessment authoring, delivery, and reusable QTI tools. Explore the projects and our open-source plans.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qflowlearn.github.io/">
+  <meta property="og:image" content="https://qflowlearn.github.io/assets/logo-512.png">
+  <link rel="icon" href="assets/logo-512.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap header">
+    <a class="brand" href="./" aria-label="QFlowLearn projects home"><img src="assets/logo-512.svg" width="40" height="40" alt="">QFlowLearn</a>
+    <nav aria-label="Main navigation"><a href="#projects">Projects</a><a href="#intent">Our intent</a><a href="https://github.com/QFlowLearn">GitHub <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="wrap intro" aria-labelledby="intro-title">
+      <div>
+        <h1 id="intro-title">Assessment tools.<br>Content you control.</h1>
+        <p class="lead">We build tools for creating, moving, and delivering assessments, with Question and Test Interoperability (QTI) at the center.</p>
+        <a class="button" href="#projects">Explore the projects <span aria-hidden="true">↓</span></a>
+      </div>
+      <aside class="flow" aria-label="Project boundaries">
+        <div><span>QFlow Author</span><strong>Create &amp; review</strong></div>
+        <p>QTI packages <span aria-hidden="true">↓</span></p>
+        <div><span>QFlow Deliver or your LMS</span><strong>Publish &amp; deliver</strong></div>
+        <p class="flow-note">The reusable QTI library handles item rendering, scoring, validation, and migration.</p>
+      </aside>
+    </section>
+    <section class="wrap projects" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">The projects</h2>
+      <article class="project">
+        <div class="project-name"><h3>QFlow Author</h3><p class="status">Open-source release planned</p></div>
+        <div class="project-detail"><p>Create and review questions, organize question banks, import existing assessments, and export QTI packages.</p><p>We plan to open-source Author so teams can use and extend the authoring environment independently. The repository is currently private; license and contribution details will accompany the release.</p><a href="https://qflowlearn.com/authoring">Explore authoring <span aria-hidden="true">↗</span></a></div>
+      </article>
+      <article class="project">
+        <div class="project-name"><h3>QFlow Deliver</h3><p class="status">Commercial · Private source</p></div>
+        <div class="project-detail"><p>Publish assessments and manage learner attempts, timing, accommodations, results, and LMS connections.</p><p>Delivery has its own responsibilities: protecting learner work, coordinating attempts, and recording results. Hosted services and support form part of the commercial offering.</p><a href="https://qflowlearn.com/delivery">Explore delivery <span aria-hidden="true">↗</span></a></div>
+      </article>
+      <article class="library" aria-labelledby="library-title">
+        <div><p class="status">Public repository</p><h3 id="library-title">QTI 3 library</h3><p>A reusable TypeScript implementation for rendering, scoring, validating, and migrating QTI assessment content, with a Web Component player and optional React adapters.</p><p>Use it in your own application. The library is currently maintained under LongsightGroup.</p></div>
+        <div class="library-links"><a href="https://github.com/LongsightGroup/qti3">Browse the source <span aria-hidden="true">↗</span></a><a href="https://github.com/LongsightGroup/qti3#readme">Read the documentation <span aria-hidden="true">↗</span></a><a href="https://github.com/LongsightGroup/qti3/issues">Report a library issue <span aria-hidden="true">↗</span></a></div>
+      </article>
+    </section>
+    <section class="wrap intent" id="intent" aria-labelledby="intent-title">
+      <h2 id="intent-title">What we’re working toward</h2>
+      <div><p class="intent-lead">Useful authoring, reusable standards tooling, and assessment content that can move between systems.</p>
+        <dl><div><dt>Independent authoring</dt><dd>Author should be useful when you deliver through another system. Creating and exporting an assessment should not require a QFlow Deliver account.</dd></div><div><dt>Explicit boundaries</dt><dd>Authoring, item rendering and scoring, and assessment delivery have distinct owners. The QTI library supports applications beyond QFlow.</dd></div><div><dt>Visible export changes</dt><dd>Preserve the original, produce a useful supported export, and disclose omitted or changed behavior. Give authors a concrete next step when content needs repair.</dd></div></dl>
+      </div>
+    </section>
+    <section class="follow"><div class="wrap follow-inner"><div><h2>Follow the work</h2><p>Public code is available in the QTI library today. Follow QFlowLearn for Author’s release and project updates.</p></div><div class="follow-links"><a href="https://github.com/QFlowLearn">Visit QFlowLearn on GitHub <span aria-hidden="true">↗</span></a><a href="https://qflowlearn.com/roadmap">View the product roadmap <span aria-hidden="true">↗</span></a></div></div></section>
+  </main>
+  <footer class="wrap footer"><a class="brand" href="https://qflowlearn.com"><img src="assets/logo-512.svg" width="28" height="28" alt="">QFlowLearn</a><nav aria-label="Footer navigation"><a href="https://qflowlearn.com">Product website</a><a href="https://github.com/QFlowLearn/qflowlearn.github.io">Site source</a></nav></footer>
+</body>
+</html>
