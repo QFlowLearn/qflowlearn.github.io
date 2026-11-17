@@ -10,7 +10,7 @@ Assessment developers, technical evaluators, and potential contributors explorin
 
 ## Product purpose
 
-A public project hub explaining Author, Deliver, the QTI library, and the AGPL-3.0-only open-source release. Product evaluation and commercial information stay on qflowlearn.com.
+A public project hub explaining Author, Deliver, the QTI library, and the AGPL v3 open-source release. Product evaluation and commercial information stay on qflowlearn.com.
 
 ## Brand personality
 
