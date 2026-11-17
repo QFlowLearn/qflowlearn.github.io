@@ -10,7 +10,7 @@ Assessment developers, technical evaluators, and potential contributors explorin
 
 ## Product purpose
 
-A public project hub explaining Author, Deliver, the QTI library, and the planned open-source release. Product evaluation and commercial information stay on qflowlearn.com.
+A public project hub explaining Author, Deliver, the QTI library, and the AGPL-3.0-only open-source release. Product evaluation and commercial information stay on qflowlearn.com.
 
 ## Brand personality
 
@@ -18,7 +18,7 @@ Precise, calm, evidence-led. Preserve the existing QFlowLearn identity.
 
 ## Anti-references
 
-Avoid generic quiz-builder marketing, unsupported claims, and implying that private code is already available.
+Avoid generic quiz-builder marketing, unsupported claims, and unsupported availability or certification claims.
 
 ## Design principles
 
